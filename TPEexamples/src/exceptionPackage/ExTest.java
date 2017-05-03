@@ -1,6 +1,5 @@
 package exceptionPackage;
 import java.lang.Math.*;
-import linkedlist.LinkedList;
 import java.io.*;
 
 
@@ -65,7 +64,7 @@ public class ExTest {
 			 else throw new E2();
 		  } catch (E2 e) {System.out.println("E2 in m3");}
 		  System.out.println ("nach try in m3");
-		throw new RE1("abc");  // Runtime Exceptions müssen nicht abgefangen werden
+		throw new RE1("abc");  // Runtime Exceptions mï¿½ssen nicht abgefangen werden
 	  }	
 	  
 	  
@@ -115,7 +114,7 @@ public class ExTest {
 class ExTest2 extends ExTest {
 	void m3 (int i) {}//throws E11 {throw new E11("a");}
 	// das funtioniert, da E11 E1 spezialisiert
-	// E22 würde nicht funktionieren.
+	// E22 wï¿½rde nicht funktionieren.
 }
 
 class ExTest1  {
