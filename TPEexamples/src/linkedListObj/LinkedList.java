@@ -56,7 +56,6 @@ public class LinkedList {
 	public void addLast(Object val) {
 
 		// inserts val at a new element at tail of the list
-		// element is created inside method addFirst
 
 		if (head == null)
 			head = new Node(val, null);
@@ -67,6 +66,17 @@ public class LinkedList {
 
 			Node n = new Node(val, null); // create a new element
 			l.setNext(n); // link the new element
+		}
+	}
+	
+	public void addFirst(Object val) {
+
+		// inserts val at a new element at head of the list
+
+		if (head == null)
+			head = new Node(val, null);
+		else {
+			head = new Node(val, head);
 		}
 	}
 
