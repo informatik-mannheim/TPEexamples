@@ -1,5 +1,6 @@
 package linkedListObj;
 
+
 class Node {
 	Object val; // contains nodes of any kind
 	Node next;
