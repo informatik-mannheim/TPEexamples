@@ -1,5 +1,6 @@
 package exceptionPackage;
 
+
 import java.io.FileNotFoundException;
 
 class Ex extends Exception {
